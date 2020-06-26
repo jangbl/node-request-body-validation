@@ -1,8 +1,8 @@
-const joi = require('@hapi/joi');
+const yup = require('yup');
 
-module.exports = joi.object({
-  email: joi.string().email().required(),
-  firstName: joi.string().required(),
-  dob: joi.string().isoDate().required(),
-  countryCode: joi.string().min(2).max(2).empty('').default('US'),
+module.exports = yup.object().shape({
+  email: yup.string().required().email(),
+  firstName: yup.string().trim().required(),
+  dob: yup.date().required(),
+  countryCode: yup.string().trim().min(2).max(2).default('US')
 });

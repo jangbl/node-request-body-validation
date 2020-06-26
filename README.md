@@ -1,6 +1,6 @@
 # Node request body validation
 
-This repository contains sample code on how to perform request body validation with the Node.js [express](https://expressjs.com/) framework.
+This repository contains sample code on how to perform request body validation with the Node.js [express](https://expressjs.com/) framework and  [yup](https://github.com/jquense/yup)
 
 <h3 align="center">Please help this repo with a ⭐️ if you find it useful! 😁</h3>
 
