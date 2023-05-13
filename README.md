@@ -8,7 +8,7 @@ This repository is part of the [Request body validation in Node](https://www.you
 
 [![Request body validation in Node](images/node-request-body-validation.png)](https://www.youtube.com/playlist?list=PL1Nml43UBm6dM110xcNUvdYgbQ3cnIBJm)
 
-For updates, please reach out to [@productioncoder](https://twitter.com/productioncoder) on Twitter.
+For updates, please reach out to [@_jgoebel](https://twitter.com/_jgoebel) on Twitter.
 
 # How to run this application
 
